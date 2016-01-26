@@ -1,4 +1,4 @@
-import arithmetic.divide.divide as divide
+import arithmetic.division.divide as divide
 
 def main (a, b):
     div = divide.compute(a,b)

@@ -12,21 +12,34 @@ $ pwd
 
 $ tree
 .
-├── divide.py
-├── __init__.py
-├── __main__.py
-├── multiply.py
-└── tests
-    ├── __init__.py
-    ├── __main__.py
-    ├── test_divide.py
-    └── test_multiply.py
+├── arithmetic
+│   ├── division
+│   │   ├── divide.py
+│   │   ├── __init__.py
+│   │   ├── __main__.py
+│   │   └── __pycache__
+│   ├── __init__.py
+│   ├── __main__.py
+│   ├── multiplication
+│   │   ├── __init__.py
+│   │   ├── __main__.py
+│   │   ├── multiply.py
+│   │   └── __pycache__
+│   └── tests
+│       ├── division
+│       │   └── test_divide.py
+│       ├── __init__.py
+│       ├── __main__.py
+│       └── multiplication
+│           └── test_multiply.py
 
 ```
 
 ### Running modules individually.
 
 - Arithmetic: `python -m arithmetic`  
+- Division: `python -m arithmetic.division`  
+- Multiplication: `python -m arithmetic.multiplication`  
 - Tests: `python -m arithmetic.tests`  
 
 However the following for example fails.

@@ -1,4 +1,4 @@
-import arithmetic.multiply.multiply as multiply
+import arithmetic.multiplication.multiply as multiply
 
 
 def main (a, b):
