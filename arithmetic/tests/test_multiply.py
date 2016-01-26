@@ -1,7 +1,8 @@
 import arithmetic.multiply as multiply
-import unittest
+import pytest
 
-class TestMultiply (unittest.TestCase):
+class TestMultiply:
     def test_multiplication(self):
-        self.assertEqual (multiply.multiplication(3,4), 12)
+        assert multiply.multiplication(3,4) == 12
+
 

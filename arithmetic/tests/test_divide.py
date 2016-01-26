@@ -1,9 +1,7 @@
-import unittest
+import pytest
 import arithmetic.divide as divide
 
-class TestDivide (unittest.TestCase):
+class TestDivide ():
     def test_division(self):
-        self.assertEqual (divide.division(100,5), 20)
-
-
+        assert divide.division(100,5) == 20
 
