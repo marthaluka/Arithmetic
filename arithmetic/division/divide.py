@@ -1,6 +1,6 @@
 # Division module
 
-def division (a, b):
+def compute (a, b):
     return a/b
 
 if __name__ == "__main__":

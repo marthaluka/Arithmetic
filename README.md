@@ -7,17 +7,20 @@ Project structure:
 ---
 
 ```
-├── arithmetic
-│   ├── divide.py
-│   ├── __init__.py
-│   ├── __main__.py
-│   ├── multiply.py
-│   └── tests
-│       ├── __init__.py
-│       ├── __main__.py
-│       ├── test_divide.py
-│       └── test_multiply.py
-└── README.md
+$ pwd
+~/src/python/Arithmetic/arithmetic
+
+$ tree
+.
+├── divide.py
+├── __init__.py
+├── __main__.py
+├── multiply.py
+└── tests
+    ├── __init__.py
+    ├── __main__.py
+    ├── test_divide.py
+    └── test_multiply.py
 
 ```
 
